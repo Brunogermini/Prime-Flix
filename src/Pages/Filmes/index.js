@@ -78,7 +78,7 @@ return(
           
             <div className='area-buttons'>
                 <button onClick={salvarFilme} className='salvar' >Salvar </button>
-                <button >
+                <button  className='trailer'>
                 <a target="blank" rel="external" href={`https:youtube.com.br/results?search_query=${filme.title} Trailer`}>Trailer
                 </a>
                 </button>

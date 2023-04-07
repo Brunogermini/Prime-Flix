@@ -53,21 +53,25 @@ margin: 14px 0;
     padding: 3px;
     cursor: pointer;
     transition: all 0.5s;
-    color:white;
+    /* color:white; */
     
     
 }
 .salvar{
     border: 1px solid white;
 }
+.trailer{
+    border: none;
+}
 .area-buttons a{
-    
+    display: flex;
     padding:5px ;
     text-decoration: none;
     color:white;
     border-radius: 8px;
     transition: all 0.5s;
     border: 1px solid white;
+    margin-bottom: 40px;
 
 }
 .area-buttons button:hover{
